@@ -1,0 +1,37 @@
+body {
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.5em;
+  color: #dd678e;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+}
+body .app-wrapper {
+  width: 40vw;
+  height: 400px;
+  border: 2px dashed #c24871;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+body .app-wrapper #message-space {
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  padding: 10px;
+}
+body .app-wrapper .response button {
+  height: 2.5em;
+  width: 250px;
+  color: white;
+  font-size: 1.5em;
+  background-color: #c24871;
+  outline: none;
+  border: 2px solid #c24871;
+  border-radius: 3px;
+}/*# sourceMappingURL=style.css.map */
