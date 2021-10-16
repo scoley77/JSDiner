@@ -18,7 +18,7 @@
   "bugs": {
     "url": "https://github.com/bottega-code-school/js-builder/issues"
   },
-  "homepage": "https://ecstatic-spence-3ce05d.netlify.app/",
+  "homepage": "https://gallant-albattani-188670.netlify.app/",
   "devDependencies": {
     "uglifyjs-webpack-plugin": "^1.2.7",
     "webpack-dev-server": "^3.1.5",
