@@ -13,14 +13,6 @@
     "type": "git",
     "url": "https://github.com/scoley77/JSDiner"
   },
-  "keywords": [
-    "es6",
-    "es7",
-    "webpack2",
-    "webpack3",
-    "starter",
-    "template"
-  ],
   "author": "Sara Coley",
   "license": "MIT",
   "bugs": {
@@ -38,16 +30,16 @@
   },
   "dependencies": {
     "autoprefixer": "^9.1.0",
-    "babel-core": "^6.26.3",
+    "babel-core": "^7.15.8",
     "babel-eslint": "^8.2.6",
-    "babel-loader": "^7.1.5",
+    "babel-loader": "^8.2.2",
     "babel-polyfill": "^6.23.0",
     "babel-preset-env": "^1.6.0",
     "babel-preset-react": "^6.1.18",
     "clean-webpack-plugin": "^0.1.16",
     "copy-webpack-plugin": "^4.5.2",
     "cross-env": "^5.2.0",
-    "express": "^4.16.3",
+    "express": "^4.17.1",
     "file-loader": "^1.1.11",
     "html-webpack-plugin": "^3.2.0",
     "jquery": "^3.6.0",
