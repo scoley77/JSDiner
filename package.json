@@ -4,10 +4,8 @@
   "description": "Basic skeleton codebase for ES6 development",
   "scripts": {
     "preinstall": "npm set audit false",
-    "start": "webpack-dev-server --config webpack/dev.config.js --watch",
-    "build": "npm start",
-    "heroku-postbuild": "npm start",
-    "precommit": "eslint src",
+    "start": "netlify-lambda serve source/lambda",
+    "build": "netlify-lambda build source/lambda",
     "prod": "NODE_ENV=production node server.js"
   },
   "repository": {
