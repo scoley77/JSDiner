@@ -6,13 +6,13 @@
     "preinstall": "npm set audit false",
     "start": "webpack-dev-server --config webpack/dev.config.js --watch",
     "build": "cross-env NODE_ENV=production webpack --config webpack/prod.config.js --progress --display-error-details --color",
-    "heroku-postbuild": "npm run build",
+    "heroku-postbuild": "npm start",
     "precommit": "eslint src",
     "prod": "NODE_ENV=production node server.js"
   },
   "repository": {
     "type": "git",
-    "url": "git@github.com:bottega-code-school/js-builder.git"
+    "url": "https://github.com/scoley77/JSDiner"
   },
   "keywords": [
     "es6",
@@ -27,7 +27,7 @@
   "bugs": {
     "url": "https://github.com/bottega-code-school/js-builder/issues"
   },
-  "homepage": "https://github.com/bottega-code-school/js-builder",
+  "homepage": "https://ecstatic-spence-3ce05d.netlify.app/",
   "devDependencies": {
     "uglifyjs-webpack-plugin": "^1.2.7",
     "webpack-dev-server": "^3.1.5",
@@ -48,9 +48,6 @@
     "clean-webpack-plugin": "^0.1.16",
     "copy-webpack-plugin": "^4.5.2",
     "cross-env": "^5.2.0",
-    "eslint": "^5.3.0",
-    "eslint-loader": "^2.1.0",
-    "eslint-plugin-react": "^7.1.0",
     "express": "^4.16.3",
     "file-loader": "^1.1.11",
     "html-webpack-plugin": "^3.2.0",
