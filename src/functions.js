@@ -85,16 +85,17 @@ const orderDinner = function() {
   setTimeout(function () {
     let entreePrompt = window.prompt(dinnerChoice,"Enter the number of your choice");
     if (entreePrompt == "3") {
+      const entree = home.dinnerOptions[2];
+      toUser.innerText = entree.comments;
       setTimeout(function() {
-        toUser.innerText = entree.comments;
         choices.push(entree.name);
         runningTotal.push(entree.price);
         crabLegs();
       }, 1000);
     } else if (entreePrompt == "1" || entreePrompt == "2") {
       const entree = home.dinnerOptions[parseInt(entreePrompt) - 1];
+      toUser.innerText = entree.comments;
       setTimeout(function() {
-        toUser.innerText = entree.comments;
         choices.push(entree.name);
         runningTotal.push(entree.price);
         pickTwo(home.dinnerSides);
